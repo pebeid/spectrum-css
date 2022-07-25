@@ -1438,9 +1438,9 @@
   integrity sha512-ViBjdWi23J6vIR4t8JTRQ6jY/+KgpZgCALj3otgy495zMNG7jPeN7sKoy6i6JZJcdIRJA4MjOTVvcDOGkYWUZg==
 
 "@spectrum-css/spectrum-css-vr-test-assets-essential@^1.0.39":
-  version "1.0.39"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/spectrum-css-vr-test-assets-essential/-/spectrum-css-vr-test-assets-essential-1.0.39.tgz#4b22a22b43f311caa67f0a78708269dff5ee1163"
-  integrity sha512-Vy3n2LUhPZ9H9AhAiZH6MeZk3KxgJC7sYlQjs2Q0wlZLFj6guQ13BCwIOzcvt6r3Wxhw0lQ8gsGUbWle1/6k9Q==
+  version "1.0.43"
+  resolved "https://registry.yarnpkg.com/@spectrum-css/spectrum-css-vr-test-assets-essential/-/spectrum-css-vr-test-assets-essential-1.0.43.tgz#9d33f1e11daacc4a4b8c4a42f7e9a22b77fc99a0"
+  integrity sha512-rJwlOBArutg3D/j9irOLZqHcLV3AXxXmEWkqYEqS8CfB3CC6aXzzYfXWotxVtiq7vANiE+l7ojiocDA+dfCmKQ==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"

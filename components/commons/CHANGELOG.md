@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+
+<a name="3.0.6"></a>
+## 4.0.0
+🗓 2022-06-16 • 📝 [Commits](https://github.com/adobe/spectrum-css/compare/@spectrum-css/commons@3.0.5...@spectrum-css/commons@4.0.0)
+
+**Note:** Version bump for core tokens
+
+
 <a name="3.0.6"></a>
 ## 3.0.6
 🗓 2022-06-16 • 📝 [Commits](https://github.com/adobe/spectrum-css/compare/@spectrum-css/commons@3.0.5...@spectrum-css/commons@3.0.6)
