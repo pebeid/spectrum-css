@@ -107,10 +107,6 @@ governing permissions and limitations under the License.
   padding-block-start: 0;
   padding-block-end: 0;
 
-  /* Start with text-only padding */
-  /* padding-inline-start: var(--mod-button-edge-to-text, var(--spectrum-button-edge-to-text));
-  padding-inline-end: var(--mod-button-edge-to-text, var(--spectrum-button-edge-to-text)); */
-
 
   font-size: var(--mod-button-font-size, var(--spectrum-button-font-size));
   font-weight: var(--mod-global-font-weight-bold, var(--spectrum-global-font-weight-bold));
@@ -143,7 +139,6 @@ governing permissions and limitations under the License.
     padding-inline-end: 0;
   }
 
-  /* --spectrum-button-focus-ring-color: var(--spectrum-button-m-primary-fill-texticon-focus-ring-color-key-focus); */
 
   /* correct focus-ring radius for t-shirt sizing */
   &:after {
