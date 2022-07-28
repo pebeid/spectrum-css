@@ -41,14 +41,14 @@ governing permissions and limitations under the License.
   /* Adjacent buttons should be aligned correctly */
   vertical-align: top;
 
-  transition: background var(--spectrum-animation-duration-100) ease-out,
-    border-color var(--spectrum-animation-duration-100) ease-out,
-    color var(--spectrum-animation-duration-100) ease-out,
-    box-shadow var(--spectrum-animation-duration-100) ease-out;
+  transition: background var(--mod-animation-duration-100, var(--spectrum-animation-duration-100)) ease-out,
+    border-color var(--mod-animation-duration-100, var(--spectrum-animation-duration-100)) ease-out,
+    color var(--mod-animation-duration-100, var(--spectrum-animation-duration-100)) ease-out,
+    box-shadow var(--mod-animation-duration-100, var(--spectrum-animation-duration-100)) ease-out;
 
   text-decoration: none;
-  font-family: var(--spectrum-font-family-base);
-  line-height: var(--spectrum-line-height-small); 
+  font-family: var(--mod-font-family-base, var(--spectrum-font-family-base));
+  line-height: var(--mod-line-height-small, var(--spectrum-line-height-small)); 
 
   user-select: none;
   -webkit-user-select: none;
@@ -92,14 +92,14 @@ governing permissions and limitations under the License.
     right: 0;
     bottom: 0;
     top: 0;
-    margin: calc(var(--spectrum-focus-ring-gap) * -1);
-    transition: opacity var(--spectrum-animation-duration-100) ease-out,
-                margin var(--spectrum-animation-duration-100) ease-out;
+    margin: calc(var(--mod-focus-ring-gap, var(--spectrum-focus-ring-gap)) * -1);
+    transition: opacity var(--mod-animation-duration-100, var(--spectrum-animation-duration-100)) ease-out,
+                margin var(--mod-animation-duration-100, var(--spectrum-animation-duration-100)) ease-out;
   }
 
   &:focus-ring {
     &:after {
-      margin: calc(var(--spectrum-focus-ring-gap) * -2);
+      margin: calc(var(--mod-focus-ring-gap, var(--spectrum-focus-ring-gap)) * -2);
     }
   }
 }
