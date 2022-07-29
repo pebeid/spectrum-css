@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.1.0"></a>
+# 2.1.0
+🗓 2022-07-27 • 📝 [Commits](https://github.com/adobe/spectrum-css/compare/@spectrum-css/actionbutton@2.0.5...@spectrum-css/actionbutton@2.1.0)
+
+### ✨ Features
+
+* **actionbutton:** adding x-small action-button (CSS-37) ([#1481](https://github.com/adobe/spectrum-css/issues/1481)) ([1f18708](https://github.com/adobe/spectrum-css/commit/1f18708))
+
+
+
+
+
+<a name="2.0.5"></a>
+## 2.0.5
+🗓 2022-07-26 • 📝 [Commits](https://github.com/adobe/spectrum-css/compare/@spectrum-css/actionbutton@2.0.4...@spectrum-css/actionbutton@2.0.5)
+
+**Note:** Version bump only for package @spectrum-css/actionbutton
+
+
+
+
+
+<a name="2.0.4"></a>
+## 2.0.4
+🗓 2022-07-22 • 📝 [Commits](https://github.com/adobe/spectrum-css/compare/@spectrum-css/actionbutton@2.0.3...@spectrum-css/actionbutton@2.0.4)
+
+**Note:** Version bump only for package @spectrum-css/actionbutton
+
+
+
+
+
 <a name="2.0.3"></a>
 ## 2.0.3
 🗓 2022-06-29 • 📝 [Commits](https://github.com/adobe/spectrum-css/compare/@spectrum-css/actionbutton@2.0.2...@spectrum-css/actionbutton@2.0.3)
