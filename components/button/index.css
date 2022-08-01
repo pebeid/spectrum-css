@@ -30,7 +30,7 @@ governing permissions and limitations under the License.
 
 
 .spectrum-Button--sizeS {
-  --spectrum-button-min-width: calc((var(--spectrum-component-edge-to-visual-only-75) * 2) + var(--spectrum-workflow-icon-size-75));
+  --spectrum-button-min-width: calc(var(--spectrum-component-height-75) * var(--spectrum-button-minimum-width-multiplier));
 
   --spectrum-button-border-radius: var(--spectrum-component-pill-edge-to-text-75);
   --spectrum-button-height: var(--spectrum-component-height-75);
@@ -40,12 +40,10 @@ governing permissions and limitations under the License.
   --spectrum-button-edge-to-visual: calc(var(--spectrum-component-pill-edge-to-visual-75) - var(--spectrum-button-border-width));
   --spectrum-button-edge-to-text: calc(var(--spectrum-component-pill-edge-to-text-75) - var(--spectrum-button-border-width));
   --spectrum-button-padding-label-to-icon: var(--spectrum-text-to-visual-75);
-  
-  
 }
 
 .spectrum-Button--sizeM {
-  --spectrum-button-min-width: calc((var(--spectrum-component-edge-to-visual-only-100) * 2) + var(--spectrum-workflow-icon-size-100));
+  --spectrum-button-min-width: calc(var(--spectrum-component-height-100) * var(--spectrum-button-minimum-width-multiplier));
   
   --spectrum-button-border-radius: var(--spectrum-component-pill-edge-to-text-100);
   --spectrum-button-height: var(--spectrum-component-height-100);
@@ -57,11 +55,10 @@ governing permissions and limitations under the License.
   --spectrum-button-edge-to-visual: calc(var(--spectrum-component-pill-edge-to-visual-100) - var(--spectrum-button-border-width));
   --spectrum-button-edge-to-text: calc(var(--spectrum-component-pill-edge-to-text-100) - var(--spectrum-button-border-width));
   --spectrum-button-padding-label-to-icon: var(--spectrum-text-to-visual-100);
-  
 }
 
 .spectrum-Button--sizeL {
-  --spectrum-button-min-width: calc((var(--spectrum-component-pill-edge-to-visual-only-200) * 2) + var(--spectrum-workflow-icon-size-200));
+  --spectrum-button-min-width: calc(var(--spectrum-component-height-200) * var(--spectrum-button-minimum-width-multiplier));
   
   --spectrum-button-border-radius: var(--spectrum-component-pill-edge-to-text-200);
   --spectrum-button-height: var(--spectrum-component-height-200);
@@ -74,7 +71,7 @@ governing permissions and limitations under the License.
 }
 
 .spectrum-Button--sizeXL {
-  --spectrum-button-min-width: calc((var(--spectrum-component-pill-edge-to-visual-only-300) * 2) + var(--spectrum-workflow-icon-size-300));
+  --spectrum-button-min-width: calc(var(--spectrum-component-height-300) * var(--spectrum-button-minimum-width-multiplier));
 
   --spectrum-button-border-radius: var(--spectrum-component-pill-edge-to-text-300);
   --spectrum-button-height: var(--spectrum-component-height-300);
@@ -106,6 +103,20 @@ governing permissions and limitations under the License.
 
   padding-block-start: 0;
   padding-block-end: 0;
+
+  position: relative;
+
+  min-inline-size: var(--mod-button-min-width, var(--spectrum-button-min-width));
+  min-block-size: var(--mod-spectrum-button-height, var(--spectrum-button-height));
+
+  height: var(--mod-button-height, var(--spectrum-button-height));
+
+  border-radius: var(--mod-button-border-radius, var(--spectrum-button-border-radius));
+  border-width: var(--mod-button-border-width, var(--spectrum-button-border-width));
+
+  /* Start with text-only padding */
+  padding-inline-start: var(--mod-button-edge-to-visual, var(--spectrum-button-edge-to-visual));
+  padding-inline-end: var(--mod-button-edge-to-text, var(--spectrum-button-edge-to-text));
 
 
   font-size: var(--mod-button-font-size, var(--spectrum-button-font-size));
@@ -200,17 +211,7 @@ a.spectrum-Button {
 
 .spectrum-Button {
   @inherit: %spectrum-BaseButton;
-  position: relative;
 
-  min-inline-size: var(--mod-button-min-width, var(--spectrum-button-min-width));
-  height: var(--mod-button-height, var(--spectrum-button-height));
-
-  border-radius: var(--mod-button-border-radius, var(--spectrum-button-border-radius));
-  border-width: var(--mod-button-border-width, var(--spectrum-button-border-width));
-
-  /* Start with text-only padding */
-  padding-inline-start: var(--mod-button-edge-to-visual, var(--spectrum-button-edge-to-visual));
-  padding-inline-end: var(--mod-button-edge-to-text, var(--spectrum-button-edge-to-text));
 
   background-color: var(--highcontrast-button-background-color-default, var(--mod-button-background-color-default, var(--spectrum-button-background-color-default)));
   border-color: var(--highcontrast-button-border-color-default, var(--mod-button-border-color-default, var(--spectrum-button-border-color-default)));
