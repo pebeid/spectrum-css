@@ -22,10 +22,10 @@
   resolved "https://registry.yarnpkg.com/@adobe/spectrum-tokens-deprecated/-/spectrum-tokens-deprecated-11.8.0.tgz#7edf6f7b7e3c22581e0732c8de97fa0a68ed66b9"
   integrity sha512-LW2SA/8VhW868tEcgIcugx7xdtgFG3KiUoEz+4s2nHTdmKj0h2A9pnTNplVTNAMq2uPSfp6wKKvQNNnMSIXqCg==
 
-"@adobe/spectrum-tokens@^12.0.0-beta.43":
-  version "12.0.0-beta.43"
-  resolved "https://registry.yarnpkg.com/@adobe/spectrum-tokens/-/spectrum-tokens-12.0.0-beta.43.tgz#dc45a4699b0e4f736eeff030d4c9705fa5e37793"
-  integrity sha512-jWM00pCi++JFUvUrYytVYUIasnEGXZn7DQMxNBWfHU/BLLHSzozdXIG6VVttS6FPF0yTAtU/dtw4feipmNqA1g==
+"@adobe/spectrum-tokens@^12.0.0-beta.44":
+  version "12.0.0-beta.44"
+  resolved "https://registry.yarnpkg.com/@adobe/spectrum-tokens/-/spectrum-tokens-12.0.0-beta.44.tgz#9ac447dafee941399415a8498dc3ae1e4ce81006"
+  integrity sha512-x0hsMMSGBMt0D1oA72Rq7IF9efHFu1ACpIBI0rxFlDfOpH92cSLQaR0C0plwmbCn3H8Zi5ZMYMtIsCJYosr8VQ==
 
 "@babel/code-frame@^7.0.0":
   version "7.15.8"
@@ -1437,16 +1437,21 @@
   resolved "https://registry.yarnpkg.com/@spectrum-css/actionbutton/-/actionbutton-1.1.14.tgz#4e12eb7f482fb5944c3d97547591964baebeb1d4"
   integrity sha512-ViBjdWi23J6vIR4t8JTRQ6jY/+KgpZgCALj3otgy495zMNG7jPeN7sKoy6i6JZJcdIRJA4MjOTVvcDOGkYWUZg==
 
-"@spectrum-css/spectrum-css-vr-test-assets-essential@^1.0.44":
-  version "1.0.44"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/spectrum-css-vr-test-assets-essential/-/spectrum-css-vr-test-assets-essential-1.0.44.tgz#718caaddecb9831bdb78fa3cfae6e76e8befac79"
-  integrity sha512-hyzcSsz1cRmgGbbDabX7tJdn1xObRJ2xM/I2si3NYTuS6fix0HVw/mdsaNKbCRu7za7Yre5FimPXBOItt3xWdA==
+"@spectrum-css/closebutton@^1.2.13":
+  version "1.2.13"
+  resolved "https://registry.yarnpkg.com/@spectrum-css/closebutton/-/closebutton-1.2.13.tgz#a02a33e211349138bcde0988cd4317749a7618e4"
+  integrity sha512-V/P/XVWPh/TR2Qo66vn6o+vi5/utDbrMIdNV+zuF1dbl1wxH5QMOdCQrQOtzHrzcwulJRu3+Sk759VRPojLYCA==
+
+"@spectrum-css/spectrum-css-vr-test-assets-essential@^1.0.45":
+  version "1.0.45"
+  resolved "https://registry.yarnpkg.com/@spectrum-css/spectrum-css-vr-test-assets-essential/-/spectrum-css-vr-test-assets-essential-1.0.45.tgz#a850e194fb7cb3044d5a58b611728fcb174aab31"
+  integrity sha512-tJHCHTrR8De/SQfJGQ5qh8OYZd2t1pFj7xr5DPey+tDdYw3NAHDGO+MHMBZQfthsEs18jJIcNsxWr+Jg5dR5vQ==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@szmarczak/http-timer/-/http-timer-1.1.2.tgz#b1665e2c461a2cd92f4c1bbf50d5454de0d4b421"
-  integrity sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==
-  dependencies:
+  integrity sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSg setatus
+  
     defer-to-connect "^1.0.1"
 
 "@tootallnate/once@1":
@@ -10638,10 +10643,10 @@ strong-log-transformer@^2.1.0:
     minimist "^1.2.0"
     through "^2.3.4"
 
-style-dictionary-sets@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/style-dictionary-sets/-/style-dictionary-sets-1.4.1.tgz#d8c50179879b706e8b84d7707e4b0206acd27d4f"
-  integrity sha512-9t3E2YEE7kftvVAAnTP1MDQfBj6s2gU7Ox8mEsiQzXXkIOSm1qssthpMWjZ1Gv3cWSzyrAsBiiwnVgt6dM7OxA==
+style-dictionary-sets@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/style-dictionary-sets/-/style-dictionary-sets-2.0.2.tgz#54462fc53d7b00e21aa67fe488a5a78768abb240"
+  integrity sha512-77STdaD9LGylq+sW3azJ6M0OCxd0y4XyckoahSKDjy961pBEHKR9JH/pgzv5SeoT6MMuDxmixlDBORno93C+Jw==
   dependencies:
     deepmerge "^4.2.2"
 
