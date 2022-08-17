@@ -44,13 +44,13 @@ governing permissions and limitations under the License.
 
 .spectrum-Button--sizeM {
   --spectrum-button-min-width: calc(var(--spectrum-component-height-100) * var(--spectrum-button-minimum-width-multiplier));
-  
+
   --spectrum-button-border-radius: var(--spectrum-component-pill-edge-to-text-100);
   --spectrum-button-height: var(--spectrum-component-height-100);
 
   --spectrum-button-font-size: var(--spectrum-font-size-100);
-  
-  
+
+
 
   --spectrum-button-edge-to-visual: calc(var(--spectrum-component-pill-edge-to-visual-100) - var(--spectrum-button-border-width));
   --spectrum-button-edge-to-text: calc(var(--spectrum-component-pill-edge-to-text-100) - var(--spectrum-button-border-width));
@@ -59,12 +59,12 @@ governing permissions and limitations under the License.
 
 .spectrum-Button--sizeL {
   --spectrum-button-min-width: calc(var(--spectrum-component-height-200) * var(--spectrum-button-minimum-width-multiplier));
-  
+
   --spectrum-button-border-radius: var(--spectrum-component-pill-edge-to-text-200);
   --spectrum-button-height: var(--spectrum-component-height-200);
-  
+
   --spectrum-button-font-size: var(--spectrum-font-size-200);
-    
+
   --spectrum-button-edge-to-visual: calc(var(--spectrum-component-pill-edge-to-visual-200) - var(--spectrum-button-border-width));
   --spectrum-button-edge-to-text: calc(var(--spectrum-component-pill-edge-to-text-200) - var(--spectrum-button-border-width));
   --spectrum-button-padding-label-to-icon: var(--spectrum-text-to-visual-200);
@@ -75,7 +75,7 @@ governing permissions and limitations under the License.
 
   --spectrum-button-border-radius: var(--spectrum-component-pill-edge-to-text-300);
   --spectrum-button-height: var(--spectrum-component-height-300);
-  
+
   --spectrum-button-font-size: var(--spectrum-font-size-300);
 
   --spectrum-button-edge-to-visual: calc(var(--spectrum-component-pill-edge-to-visual-300) - var(--spectrum-button-border-width));
@@ -95,7 +95,7 @@ governing permissions and limitations under the License.
   border-style: solid;
   block-size: auto;
   height: var(--mod-button-height, var(--spectrum-button-height));
-  
+
   min-width: var(--mod-button-min-width, var(--spectrum-button-min-width));
   min-block-size: var(--mod-button-min-width, var(--spectrum-button-min-width));
   position: relative;
@@ -133,13 +133,13 @@ governing permissions and limitations under the License.
   .spectrum-Icon {
     inset-inline-end: calc(var(--mod-spectrum-button-edge-to-visual, var(--spectrum-button-edge-to-visual)) - var(--mod-button-border-width, var(--spectrum-button-border-width)));
     inset-block-end: calc(var(--mod-spectrum-button-edge-to-visual, var(--spectrum-button-edge-to-visual)) - var(--mod-button-border-width, var(--spectrum-button-border-width)));
-  
+
     color: inherit;
-  
+
 
   }
 
-  .spectrum-Icon + .spectrum-Button-label {
+  .spectrum-Icon+.spectrum-Button-label {
     /* Have gap on on the left */
     padding-inline-start: var(--mod-button-padding-label-to-icon, var(--spectrum-button-padding-label-to-icon));
 
@@ -153,8 +153,7 @@ governing permissions and limitations under the License.
 
   /* correct focus-ring radius for t-shirt sizing */
   &:after {
-    border-radius: calc(var(--mod-button-border-radius, var(--spectrum-button-border-radius)) 
-    + var(--mod-focus-ring-gap, var(--spectrum-focus-ring-gap)));
+    border-radius: calc(var(--mod-button-border-radius, var(--spectrum-button-border-radius)) + var(--mod-focus-ring-gap, var(--spectrum-focus-ring-gap)));
   }
 }
 
@@ -168,6 +167,7 @@ a.spectrum-Button {
 }
 
 .spectrum-Button {
+
   &:focus-ring,
   &.is-focused {
     &:after {
@@ -200,8 +200,8 @@ a.spectrum-Button {
     box-shadow: none;
 
     &:after {
-      box-shadow: 0 0 0 var(--mod-button-focus-ring-thickness, var(--spectrum-button-focus-ring-thickness)) var(--highcontrast-button-focus-ring-color, var(--mod-button-focus-ring-color, 
-        var(--mod-button-focus-ring-color, var(--spectrum-button-focus-ring-color))));
+      box-shadow: 0 0 0 var(--mod-button-focus-ring-thickness, var(--spectrum-button-focus-ring-thickness)) var(--highcontrast-button-focus-ring-color, var(--mod-button-focus-ring-color,
+            var(--mod-button-focus-ring-color, var(--spectrum-button-focus-ring-color))));
     }
   }
 }
@@ -211,7 +211,6 @@ a.spectrum-Button {
 
 .spectrum-Button {
   @inherit: %spectrum-BaseButton;
-
 
   background-color: var(--highcontrast-button-background-color-default, var(--mod-button-background-color-default, var(--spectrum-button-background-color-default)));
   border-color: var(--highcontrast-button-border-color-default, var(--mod-button-border-color-default, var(--spectrum-button-border-color-default)));
@@ -242,6 +241,26 @@ a.spectrum-Button {
     color: var(--highcontrast-button-content-color-disabled, var(--mod-button-content-color-disabled, var(--spectrum-button-content-color-disabled)));
   }
 }
+
+/* windows high contrast mode */
+/* Currently doesn't work... */
+/* @media (forced-colors: active) {
+  .spectrum-Button {
+    &.spectrum-Button--accent {
+      &.spectrum-Button--fill {
+        background-color: ButtonText;
+        color: Highlight;
+
+        &:after {
+          background-color: transparent;
+        }
+        .spectrum-Button-label {
+          background-color: inherit;
+        }
+      }
+    }
+  }
+} */
 
 
 .spectrum-Button--staticWhite {
