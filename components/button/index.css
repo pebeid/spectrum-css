@@ -242,27 +242,43 @@ a.spectrum-Button {
   }
 }
 
-/* windows high contrast mode */
-/* Currently doesn't work... */
-/* @media (forced-colors: active) {
+/* windows high contrast mode over-writes for accent variant */
+@media (forced-colors: active) {
   .spectrum-Button {
+    &:focus-ring {
+      &:after {
+        forced-color-adjust: none;
+        box-shadow: 0 0 0 var(--mod-button-focus-ring-thickness, var(--spectrum-button-focus-ring-thickness)) ButtonTExt;
+      }
+    }
+
     &.spectrum-Button--accent {
       &.spectrum-Button--fill {
         background-color: ButtonText;
-        color: Highlight;
+        color: ButtonFace;
+        
+        &:disabled,
+        &.is-disabled {
+          background-color: ButtonFace;
+          color: GrayText;
+        }
 
-        &:after {
-          background-color: transparent;
+        /* simplified for a lot of state for high contrast mode */
+        &:active,
+        &:hover,
+        &:focus-ring,
+        &.is-focused {
+          background-color: Highlight;
         }
         .spectrum-Button-label {
-          background-color: inherit;
+          forced-color-adjust: none;
         }
       }
     }
   }
-} */
+}
 
-
+/* static variants */
 .spectrum-Button--staticWhite {
   --spectrum-button-focus-ring-color: var(--mod-static-black-focus-ring-color, var(--spectrum-static-black-focus-ring-color));
 }
