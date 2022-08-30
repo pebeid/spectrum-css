@@ -1442,15 +1442,20 @@
   resolved "https://registry.yarnpkg.com/@spectrum-css/closebutton/-/closebutton-1.2.13.tgz#a02a33e211349138bcde0988cd4317749a7618e4"
   integrity sha512-V/P/XVWPh/TR2Qo66vn6o+vi5/utDbrMIdNV+zuF1dbl1wxH5QMOdCQrQOtzHrzcwulJRu3+Sk759VRPojLYCA==
 
+"@spectrum-css/fieldlabel@^5.0.0-beta.2":
+  version "5.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@spectrum-css/fieldlabel/-/fieldlabel-5.0.0-beta.2.tgz#63ee338df916c843df9e6b5520d940fb21059aa6"
+  integrity sha512-PAUJjN7P9VHo+sW5NdvtOoykd55wIJMvNN7gNPmtUWdWBVNgmEJiwwSlDq7ibfdh3SceUY7Hb5iI7KIG1DLb1g==
+
 "@spectrum-css/spectrum-css-vr-test-assets-essential@^1.0.45":
   version "1.0.45"
   resolved "https://registry.yarnpkg.com/@spectrum-css/spectrum-css-vr-test-assets-essential/-/spectrum-css-vr-test-assets-essential-1.0.45.tgz#a850e194fb7cb3044d5a58b611728fcb174aab31"
   integrity sha512-tJHCHTrR8De/SQfJGQ5qh8OYZd2t1pFj7xr5DPey+tDdYw3NAHDGO+MHMBZQfthsEs18jJIcNsxWr+Jg5dR5vQ==
 
-"@spectrum-css/tokens@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/tokens/-/tokens-1.0.4.tgz#9a6d0bc12559d5c0cc975ed39c6ec20bb14f2d55"
-  integrity sha512-XQwOtccZiDRN9/X2rXSAcEoV+9LQU1kfySLWogockZE2smvpZlSGaxVm6avjCCS2T0rvefoTVmRovYXKr1+IEQ==
+"@spectrum-css/tokens@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@spectrum-css/tokens/-/tokens-1.0.7.tgz#7256ed9383ac4555f7bc0cf43a9ebe4f5e41b117"
+  integrity sha512-KGP78ZBPLVyj1+2uHU4IOVcPrQipqGkO9e9j3p3eQVbb4JuBJ9v9sJ5p5Z+z3nmcJV6wdg/zLpf1ZH0tnjl3hg==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
