@@ -1447,10 +1447,20 @@
   resolved "https://registry.yarnpkg.com/@spectrum-css/radio/-/radio-3.0.24.tgz#7a08476edf42be2007b75f7765c18c26eb3a9880"
   integrity sha512-C/saSKXb3dNCWprsP4iXkFFEmRrxwsdm2Al04myZ6pxOJ4tr1WjHAAtorwUgaUiyR87OnL1mGX2aWrFEN1mvtQ==
 
-"@spectrum-css/spectrum-css-vr-test-assets-essential@^1.0.45":
-  version "1.0.45"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/spectrum-css-vr-test-assets-essential/-/spectrum-css-vr-test-assets-essential-1.0.45.tgz#a850e194fb7cb3044d5a58b611728fcb174aab31"
-  integrity sha512-tJHCHTrR8De/SQfJGQ5qh8OYZd2t1pFj7xr5DPey+tDdYw3NAHDGO+MHMBZQfthsEs18jJIcNsxWr+Jg5dR5vQ==
+"@spectrum-css/spectrum-css-vr-test-assets-essential@^1.0.46":
+  version "1.0.46"
+  resolved "https://registry.yarnpkg.com/@spectrum-css/spectrum-css-vr-test-assets-essential/-/spectrum-css-vr-test-assets-essential-1.0.46.tgz#8a8c9007003f5c7c1501b3a0ecb721f751f9f68b"
+  integrity sha512-09KcehdKIxpVTxmC3bkaCGiLwbxakFNZIirGQlwryu0qnuu1uzst+ELnZdh0s/O2akfmo43PRbaKiIL0x23NQg==
+
+"@spectrum-css/swatch@^2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@spectrum-css/swatch/-/swatch-2.0.0-beta.1.tgz#5e791691186bac3c90b2d460fdfa08793069fa42"
+  integrity sha512-CpPQuuDkz3M9aylKfT8f2YDlLgG7yYjx08VbZ/hhTZDo5ip/ks6Kf3/zlZ/8dfMhAUa3zuHTYwuP3IGhBXiSJA==
+
+"@spectrum-css/tokens@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@spectrum-css/tokens/-/tokens-1.0.7.tgz#7256ed9383ac4555f7bc0cf43a9ebe4f5e41b117"
+  integrity sha512-KGP78ZBPLVyj1+2uHU4IOVcPrQipqGkO9e9j3p3eQVbb4JuBJ9v9sJ5p5Z+z3nmcJV6wdg/zLpf1ZH0tnjl3hg==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
