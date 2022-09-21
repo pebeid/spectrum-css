@@ -1,0 +1,10 @@
+
+.spectrum-Swatch {
+  --spectrum-alias-border-radius-regular: var(--spectrum-global-dimension-size-50);
+  --spectrum-alias-border-radius-small: var(--spectrum-global-dimension-size-25);
+  --spectrum-alias-border-size-thin: var(--spectrum-global-dimension-static-size-10);
+  --spectrum-alias-focus-ring-color: var(--spectrum-alias-focus-color);
+  --spectrum-alias-focus-ring-border-radius-regular: undefined;
+  --spectrum-colorcontrol-checkerboard-light-color: var(--spectrum-global-color-static-white);
+  --spectrum-colorcontrol-checkerboard-dark-color: var(--spectrum-global-color-static-gray-300);
+}

@@ -1,0 +1,12 @@
+
+.spectrum-ActionGroup {
+  --spectrum-actiongroup-button-gap-y: var(--spectrum-alias-actiongroup-button-gap);
+  --spectrum-actiongroup-button-gap-x: var(--spectrum-alias-actiongroup-button-gap);
+  --spectrum-actiongroup-compact-button-gap: var(--spectrum-alias-actiongroup-button-gap-compact);
+  --spectrum-actiongroup-quiet-compact-button-gap: var(--spectrum-alias-actiongroup-button-gap-quiet-compact);
+  --spectrum-alias-border-radius-xsmall: var(--spectrum-global-dimension-size-10);
+  --spectrum-actionbutton-m-texticon-border-radius: var(--spectrum-alias-component-border-radius);
+  --spectrum-actionbutton-m-texticon-border-size: var(--spectrum-alias-border-size-thin);
+  --spectrum-actionbutton-m-quiet-textonly-border-radius: var(--spectrum-alias-component-border-radius);
+  --spectrum-actionbutton-m-textonly-focus-ring-gap: var(--spectrum-alias-component-focusring-gap);
+}

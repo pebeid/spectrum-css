@@ -1,0 +1,35 @@
+.spectrum-FieldGroup {
+  --spectrum-fieldgroup-margin: var(--spectrum-global-dimension-size-200);
+  --spectrum-fieldgroup-readonly-delineator: '\002c';
+}
+
+.spectrum-FieldGroup {
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: top;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.spectrum-FieldGroup .spectrum-Checkbox.is-readOnly .spectrum-Checkbox-box {
+      display: none;
+    }
+
+.spectrum-FieldGroup .spectrum-Checkbox.is-readOnly:not(:last-child) .spectrum-Checkbox-label:after {
+          content: var(--spectrum-fieldgroup-readonly-delineator)
+        }
+
+[dir="ltr"] .spectrum-FieldGroup--horizontal .spectrum-FieldGroup-item:not(:last-child) {
+    margin-right: var(--spectrum-fieldgroup-margin);
+}
+
+[dir="rtl"] .spectrum-FieldGroup--horizontal .spectrum-FieldGroup-item:not(:last-child) {
+    margin-left: var(--spectrum-fieldgroup-margin);
+}
+
+.spectrum-FieldGroup--vertical {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
